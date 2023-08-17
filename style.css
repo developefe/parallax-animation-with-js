@@ -31,6 +31,17 @@ body {
     background: no-repeat center/cover;
 }
 
+.parallax-side p {
+    position: absolute;
+    font-size: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    text-shadow: -4px 4px #a31b92;
+}
+
 .parallax-side:before {
     content: "";
     position: absolute;
